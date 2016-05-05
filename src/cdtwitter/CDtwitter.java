@@ -14,7 +14,7 @@ public class CDtwitter {
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter mitwitter = tf.getInstance();
         
-        Status miStatus = mitwitter.updateStatus("");
+        Status miStatus = mitwitter.updateStatus("Este tweet lo ha escrito Jorge");
         System.out.println(miStatus.getText());
     }
 }
